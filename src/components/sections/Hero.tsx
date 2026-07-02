@@ -33,7 +33,7 @@ export function Hero() {
       {/* Vignette so the grid recedes toward the edges */}
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_0%,var(--color-bg)_75%)]" />
 
-      <div className="relative z-10 mx-auto grid w-full max-w-6xl grid-cols-1 items-center gap-16 px-6 pt-28 md:grid-cols-[1.15fr_0.85fr] md:px-10 md:pt-20">
+      <div className="relative z-10 mx-auto grid w-full max-w-6xl grid-cols-1 items-center gap-16 px-6 pt-32 md:grid-cols-[1.15fr_0.85fr] md:px-10 md:pt-24">
         <motion.div variants={container} initial="hidden" animate="show">
           {/* <motion.p
             variants={item}
@@ -63,7 +63,7 @@ export function Hero() {
 
           <motion.p
             variants={item}
-            className="mt-6 max-w-md text-base leading-relaxed text-body md:text-md"
+            className="mt-6 max-w-md text-base leading-relaxed text-body md:text-lg"
           >
             {SITE.tagline}
           </motion.p>
