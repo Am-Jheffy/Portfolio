@@ -3,6 +3,7 @@ import { AnimatePresence } from "framer-motion";
 import { Header } from "@/components/layout/Header";
 import { Hero } from "@/components/sections/Hero";
 import { InitialLoader } from "@/components/ui/InitialLoader";
+import { About } from "./components/sections/About";
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -28,6 +29,7 @@ function App() {
       <Header />
       <main>
         <Hero />
+        <About />
         {/* About, Skills, Projects, Experience, Contact sections come next */}
       </main>
     </>

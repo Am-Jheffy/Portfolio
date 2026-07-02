@@ -7,6 +7,9 @@ type ButtonProps = {
   onClick?: () => void;
   variant?: "primary" | "ghost";
   className?: string;
+  target?: string;
+  rel?: string;
+  download?: string | boolean;
 };
 
 export function Button({
@@ -15,6 +18,9 @@ export function Button({
   onClick,
   variant = "primary",
   className,
+  target,
+  rel,
+  download,
 }: ButtonProps) {
   const base =
     "inline-flex items-center gap-2 rounded-full px-6 py-3 text-sm font-medium transition-colors duration-200 focus-visible:outline-2 focus-visible:outline-offset-4";
@@ -29,7 +35,7 @@ export function Button({
 
   if (href) {
     return (
-      <a href={href} className={classes}>
+      <a href={href} className={classes} target={target} rel={rel} download={download}>
         {children}
       </a>
     );

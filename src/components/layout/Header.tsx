@@ -42,11 +42,11 @@ export function Header() {
       className={cn(
         "fixed top-0 z-50 w-full transition-all duration-300",
         scrolled
-          ? "border-b border-hairline bg-bg/80 backdrop-blur-md"
+          ? "border-b border-accent/25 bg-bg/85 shadow-[0_8px_20px_-14px_var(--color-accent)] backdrop-blur-md"
           : "border-b border-transparent bg-transparent"
       )}
     >
-      <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4 md:px-10">
+      <div className="mx-auto flex h-20 max-w-6xl items-center justify-between px-6 md:h-24 md:px-10">
         <a
           href="#top"
           className="group flex items-center font-mono text-lg font-semibold tracking-tight text-heading"
