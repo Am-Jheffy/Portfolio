@@ -143,7 +143,7 @@ export function About() {
                 href={SITE.resumeUrl}
                 target="_blank"
                 rel="noreferrer"
-                className="px-5!"
+                className="px-5! hover:text-amber-50"
               >
                 <FileText size={16} /> View résumé
               </Button>

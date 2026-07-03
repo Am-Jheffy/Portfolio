@@ -47,7 +47,7 @@ export function Hero() {
             className="mb-3 font-mono text-lg text-body"
           >
             {SITE.intro}{" "}
-            <span className="text-accent">I'm a {SITE.role}.</span>
+            <span className="text-blue-400">I'm a {SITE.role}.</span>
           </motion.p>
 
           <motion.h1
@@ -72,7 +72,7 @@ export function Hero() {
             <Button href="#projects">
               View projects <ArrowUpRight size={16} />
             </Button>
-            <Button href="#contact" variant="ghost">
+            <Button href="#contact" variant="ghost" className="border-accent!">
               Get in touch
             </Button>
           </motion.div>

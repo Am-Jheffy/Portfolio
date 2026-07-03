@@ -21,10 +21,58 @@ export const ABOUT = {
     { label: "Based in", value: "Port Harcourt, Nigeria" },
     { label: "Focus", value: "React · TypeScript · Tailwind" },
     { label: "Background", value: "Mathematics" },
-    { label: "Currently", value: "Learning & Building..." },
+    { label: "Currently", value: "Frontend Engineer" },
     { label: "Learning now", value: "Next.js" },
     { label: "Up next", value: "Node · Go · Cloud/Rust" },
   ],
+};
+
+export const SKILLS_META = {
+  eyebrow: "02 — Skills",
+  heading: "Deployable expertise.",
+  intro:
+    "What I'd ship with today — grouped by what it actually does, not padded percentages.",
+};
+ 
+export const skillCategories = [
+  {
+    id: "01",
+    title: "Frontend Engineering",
+    description:
+      "Building robust, type-safe client systems and accessible web interfaces.",
+    skills: ["React", "TypeScript", "JavaScript (ES6+)", "HTML5 & CSS3", "Tailwind CSS"],
+  },
+  {
+    id: "02",
+    title: "State & UI Architecture",
+    description:
+      "Managing complex data flows and orchestrating fluid, interactive user experiences.",
+    skills: ["Redux", "TanStack Table", "Framer Motion", "Shadcn / Radix"],
+  },
+  {
+    id: "03",
+    title: "AI & Emerging Tech",
+    description:
+      "Integrating large language models and automating workflows for intelligent applications.",
+    skills: ["LLM Integrations", "Prompt Engineering", "AI Automation", "Chatbot Architecture"],
+  },
+  {
+    id: "04",
+    title: "Engineering Leadership",
+    description:
+      "Driving project execution through technical mentorship, code review, and agile problem solving.",
+    skills: [
+      "Technical Mentorship",
+      "Cross-functional Collaboration",
+      "Agile Execution",
+      "Architecture Planning",
+    ],
+  },
+];
+ 
+export const learningTrajectory = {
+  active: ["Next.js"],
+  queued: ["Node.js", "Go", "Rust", "Cloud Infrastructure"],
 };
 
 export const NAV_LINKS = [
