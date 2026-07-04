@@ -234,14 +234,14 @@ export const accoladesData = [
     link: "/certificates/afriment-1st-place.png",
   },
   {
-    org: "Side Hustle",
-    award: "Certified Backend Developer (Node.js)",
-    link: "/certificates/nodejs-backend-cert.pdf",
-  },
-  {
     org: "Cisco Networking Academy",
     award: "Introduction to Cybersecurity",
     link: "/certificates/cisco-cybersecurity-cert.pdf",
+  },
+  {
+    org: "Side Hustle",
+    award: "Certified Backend Developer (Node.js)",
+    link: "/certificates/nodejs-backend-cert.pdf",
   },
 ];
 

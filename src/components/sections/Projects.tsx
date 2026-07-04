@@ -96,7 +96,7 @@ export function Projects() {
         </motion.p>
 
         {/* Featured projects — alternating layout */}
-        <div className="mt-20 flex flex-col gap-24 md:gap-32">
+        <div className="mt-18 flex flex-col gap-24 md:gap-32">
           {featuredProjects.map((p, i) => {
             const reversed = i % 2 === 1;
             return (

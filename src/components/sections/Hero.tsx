@@ -35,13 +35,6 @@ export function Hero() {
 
       <div className="relative z-10 mx-auto grid w-full max-w-6xl grid-cols-1 items-center gap-16 px-6 pt-32 md:grid-cols-[1.15fr_0.85fr] md:px-10 md:pt-24">
         <motion.div variants={container} initial="hidden" animate="show">
-          {/* <motion.p
-            variants={item}
-            className="mb-6 font-mono text-xs tracking-widest text-accent"
-          >
-            {"// "}available for work
-          </motion.p> */}
-
           <motion.p
             variants={item}
             className="mb-3 font-mono text-lg text-body"
@@ -63,7 +56,7 @@ export function Hero() {
 
           <motion.p
             variants={item}
-            className="mt-6 max-w-md text-base leading-relaxed text-body md:text-lg"
+            className="mt-6 max-w-md text-base leading-relaxed text-body md:text-md"
           >
             {SITE.tagline}
           </motion.p>
