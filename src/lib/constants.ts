@@ -33,14 +33,20 @@ export const SKILLS_META = {
   intro:
     "What I'd ship with today — grouped by what it actually does, not padded percentages.",
 };
- 
+
 export const skillCategories = [
   {
     id: "01",
     title: "Frontend Engineering",
     description:
       "Building robust, type-safe client systems and accessible web interfaces.",
-    skills: ["React", "TypeScript", "JavaScript (ES6+)", "HTML5 & CSS3", "Tailwind CSS"],
+    skills: [
+      "React",
+      "TypeScript",
+      "JavaScript (ES6+)",
+      "HTML5 & CSS3",
+      "Tailwind CSS",
+    ],
   },
   {
     id: "02",
@@ -54,7 +60,12 @@ export const skillCategories = [
     title: "AI & Emerging Tech",
     description:
       "Integrating large language models and automating workflows for intelligent applications.",
-    skills: ["LLM Integrations", "Prompt Engineering", "AI Automation", "Chatbot Architecture"],
+    skills: [
+      "LLM Integrations",
+      "Prompt Engineering",
+      "AI Automation",
+      "Chatbot Architecture",
+    ],
   },
   {
     id: "04",
@@ -69,7 +80,7 @@ export const skillCategories = [
     ],
   },
 ];
- 
+
 export const learningTrajectory = {
   active: ["Next.js"],
   queued: ["Node.js", "Go", "Rust", "Cloud Infrastructure"],
@@ -81,7 +92,7 @@ export const PROJECTS_META = {
   intro:
     "A closer look at what I've built recently, plus a running archive of earlier work.",
 };
- 
+
 export const featuredProjects = [
   {
     id: "01",
@@ -89,7 +100,13 @@ export const featuredProjects = [
     title: "Axiom Vault",
     description:
       "A comprehensive financial auditing and risk management platform. Architected the frontend to handle high-density data visualizations and integrate seamlessly with AI-driven anomaly detection pipelines, ensuring predictable edge-case management for enterprise workflows.",
-    techStack: ["React", "TypeScript", "Tailwind CSS", "Framer Motion", "AI Integration"],
+    techStack: [
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Framer Motion",
+      "AI Integration",
+    ],
     liveLink: "#",
     githubLink: "#",
     imagePath: "/mockups/axiom.png",
@@ -100,7 +117,13 @@ export const featuredProjects = [
     title: "SwiftMeal Tracking",
     description:
       "An advanced package and delivery tracking portal. Implemented strict asynchronous lifecycle state handling and optimized data caching mechanisms to render fluid, live-updating shipment milestones and route maps on a unified responsive dashboard.",
-    techStack: ["React", "TypeScript", "Tailwind CSS", "State Management", "API Integrations"],
+    techStack: [
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "State Management",
+      "API Integrations",
+    ],
     liveLink: "#",
     githubLink: "#",
     imagePath: "/mockups/swiftmeal.png",
@@ -112,13 +135,19 @@ export const featuredProjects = [
     isBuildActive: true,
     description:
       "A modern commercial interface featuring robust global state management, complex dynamic product filtering arrays, and responsive client-side shopping checkout architectures.",
-    techStack: ["React", "TypeScript", "Tailwind CSS", "Global State", "Component Engineering"],
+    techStack: [
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Global State",
+      "Component Engineering",
+    ],
     liveLink: "#",
     githubLink: "#",
     imagePath: "/mockups/ecommerce.png",
   },
 ];
- 
+
 export const projectArchive = [
   {
     year: "2025",
@@ -140,6 +169,79 @@ export const projectArchive = [
     category: "Educational Institutional Platform",
     builtWith: ["HTML5", "CSS3", "JavaScript"],
     link: "#",
+  },
+];
+
+export const EXPERIENCE_META = {
+  eyebrow: "04 — Experience",
+  heading: "How I got here.",
+  intro:
+    "The path from finance and mathematics into shipping frontend systems.",
+};
+
+export const experienceTimeline = [
+  {
+    id: "01",
+    period: "2026 — Present",
+    role: "Frontend Engineer & Squad Leader",
+    company: "Axiom Vault | BaseStack",
+    description:
+      "Leading frontend execution and team sprint cycles for advanced B2B SaaS platforms. Architecting high-density data visualizations and anomaly detection interfaces, ensuring rigorous type-safety and predictable state management across enterprise workflows.",
+  },
+  {
+    id: "02",
+    period: "2025",
+    role: "Engineering Fellow",
+    company: "Afriment | Tech4Africans",
+    description:
+      "Completed highly intensive software engineering cohorts, focusing on complex state handling and backend architecture. Engineered the SwiftMeal logistics platform, implementing asynchronous data flows and real-time package tracking lifecycles.",
+  },
+  {
+    id: "03",
+    period: "2024 — 2026",
+    role: "Financial Operations & Independent Development",
+    company: "PacknPay International Limited & Freelance",
+    description:
+      "Leveraged a deep background in finance and corporate accounting to engineer custom web solutions. Bridged the gap between business logic and technical execution by developing interfaces that handle complex data streams with mathematical precision.",
+  },
+  {
+    id: "04",
+    period: "2022 — 2023",
+    role: "Frontend Developer & Intern",
+    company: "PESOWP Limited & DigitalNotion Systems",
+    description:
+      "Established a foundational mastery of client-side web development. Built responsive, accessible interfaces using semantic HTML, modern CSS, and JavaScript, setting the stage for advanced component architecture.",
+  },
+];
+
+export const credentials = {
+  education: {
+    degree: "B.Sc. Mathematics",
+    institution: "Nnamdi Azikiwe University Awka, Nigeria",
+  },
+  status: "NYSC Completed",
+};
+
+export const accoladesData = [
+  {
+    org: "NITDA (3MTT)",
+    award: "Software Development Scholar",
+    link: "/certificates/NITDA-3MTT-software-dev-cert.pdf",
+  },
+  {
+    org: "Afriment",
+    award: "1st Place — Engineering Competition",
+    link: "/certificates/afriment-1st-place.png",
+  },
+  {
+    org: "Side Hustle",
+    award: "Certified Backend Developer (Node.js)",
+    link: "/certificates/nodejs-backend-cert.pdf",
+  },
+  {
+    org: "Cisco Networking Academy",
+    award: "Introduction to Cybersecurity",
+    link: "/certificates/cisco-cybersecurity-cert.pdf",
   },
 ];
 
