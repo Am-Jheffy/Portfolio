@@ -245,6 +245,29 @@ export const accoladesData = [
   },
 ];
 
+export const CONTACT_META = {
+  eyebrow: "05 — Contact",
+  heading: "Let's architect your next move.",
+  intro:
+    "Open to senior frontend roles and high-impact freelance architecture. The fastest way to reach me is below.",
+};
+
+export const CONTACT_CHANNELS = {
+  availability: "Available for new opportunities",
+  locationLabel: "Port Harcourt, Nigeria (WAT)",
+  whatsapp:  "https://wa.me/2348124652951?text=Hi%20Jefferson%2C%20I%20just%20reviewed%20your%20portfolio.%20I%27d%20love%20to%20connect%20regarding%20a%20potential%20opportunity.",
+  calendly: "https://calendly.com/jeffersiconunwa/30min",
+  directEmail: "jeffersiconunwa@gmail.com",
+};
+
+export const WEB3FORMS_ACCESS_KEY = "7bbb2b48-19ba-4110-a4e1-548417948fda";
+
+export const FOOTER_TEXT = {
+  signature:
+    "Built with React, TypeScript, Tailwind CSS & Framer Motion. Engineered in Port Harcourt (WAT).",
+  copyrightHolder: "Jefferson Onunwa. All rights reserved.",
+};
+
 export const NAV_LINKS = [
   { label: "About", href: "#about" },
   { label: "Skills", href: "#skills" },
@@ -260,5 +283,5 @@ export const SOCIAL_LINKS = [
     href: "https://www.linkedin.com/in/jefferson-onunwa/",
     icon: "linkedin",
   },
-  { label: "Twitter", href: "https://twitter.com/Am_Jheffy", icon: "twitter" },
+  { label: "Twitter", href: "https://x.com/Am_Jheffy", icon: "twitter" },
 ] as const;
