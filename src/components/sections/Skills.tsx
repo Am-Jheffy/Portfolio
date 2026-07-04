@@ -84,7 +84,7 @@ export function Skills() {
         </motion.p>
 
         {/* Primary bento grid — this is the scannable, high-contrast layer */}
-        <div className="mt-16 grid grid-cols-1 gap-5 md:grid-cols-6">
+        <div className="mt-14 grid grid-cols-1 gap-5 md:grid-cols-6">
           {skillCategories.map((cat) => (
             <motion.div
               key={cat.id}

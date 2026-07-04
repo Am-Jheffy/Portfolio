@@ -48,7 +48,7 @@ export function Header() {
     >
       <div className="mx-auto flex h-20 max-w-6xl items-center justify-between px-6 md:h-24 md:px-10">
         <a
-          href="#top"
+          href="#"
           className="group flex items-center font-mono text-lg font-semibold tracking-tight text-heading"
         >
           <span className="text-accent transition-transform duration-300 group-hover:-translate-x-0.5">
