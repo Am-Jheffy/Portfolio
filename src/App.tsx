@@ -5,6 +5,7 @@ import { Hero } from "@/components/sections/Hero";
 import { InitialLoader } from "@/components/ui/InitialLoader";
 import { About } from "./components/sections/About";
 import { Skills } from "./components/sections/Skills";
+import { Projects } from "./components/sections/Projects";
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -32,7 +33,8 @@ function App() {
         <Hero />
         <About />
         <Skills />
-        {/*Projects, Experience, Contact sections come next */}
+        <Projects />
+        {/* Experience, Contact sections come next */}
       </main>
     </>
   );

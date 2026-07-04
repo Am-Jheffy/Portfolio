@@ -75,6 +75,74 @@ export const learningTrajectory = {
   queued: ["Node.js", "Go", "Rust", "Cloud Infrastructure"],
 };
 
+export const PROJECTS_META = {
+  eyebrow: "03 — Projects",
+  heading: "Shipped, not staged.",
+  intro:
+    "A closer look at what I've built recently, plus a running archive of earlier work.",
+};
+ 
+export const featuredProjects = [
+  {
+    id: "01",
+    type: "B2B SaaS / Financial Tech",
+    title: "Axiom Vault",
+    description:
+      "A comprehensive financial auditing and risk management platform. Architected the frontend to handle high-density data visualizations and integrate seamlessly with AI-driven anomaly detection pipelines, ensuring predictable edge-case management for enterprise workflows.",
+    techStack: ["React", "TypeScript", "Tailwind CSS", "Framer Motion", "AI Integration"],
+    liveLink: "#",
+    githubLink: "#",
+    imagePath: "/mockups/axiom.png",
+  },
+  {
+    id: "02",
+    type: "Logistics / Real-time Apps",
+    title: "SwiftMeal Tracking",
+    description:
+      "An advanced package and delivery tracking portal. Implemented strict asynchronous lifecycle state handling and optimized data caching mechanisms to render fluid, live-updating shipment milestones and route maps on a unified responsive dashboard.",
+    techStack: ["React", "TypeScript", "Tailwind CSS", "State Management", "API Integrations"],
+    liveLink: "#",
+    githubLink: "#",
+    imagePath: "/mockups/swiftmeal.png",
+  },
+  {
+    id: "03",
+    type: "E-Commerce / Core Web Applications",
+    title: "Enterprise E-Commerce",
+    isBuildActive: true,
+    description:
+      "A modern commercial interface featuring robust global state management, complex dynamic product filtering arrays, and responsive client-side shopping checkout architectures.",
+    techStack: ["React", "TypeScript", "Tailwind CSS", "Global State", "Component Engineering"],
+    liveLink: "#",
+    githubLink: "#",
+    imagePath: "/mockups/ecommerce.png",
+  },
+];
+ 
+export const projectArchive = [
+  {
+    year: "2025",
+    title: "Legal Counsel Platform",
+    category: "Law Firm Architecture",
+    builtWith: ["HTML5", "CSS3", "JavaScript"],
+    link: "#",
+  },
+  {
+    year: "2025",
+    title: "Apex Energy Systems",
+    category: "Corporate Web / Infrastructure",
+    builtWith: ["HTML5", "CSS3", "JavaScript"],
+    link: "#",
+  },
+  {
+    year: "2024",
+    title: "Academy Portal",
+    category: "Educational Institutional Platform",
+    builtWith: ["HTML5", "CSS3", "JavaScript"],
+    link: "#",
+  },
+];
+
 export const NAV_LINKS = [
   { label: "About", href: "#about" },
   { label: "Skills", href: "#skills" },
