@@ -1,32 +1,30 @@
-# React + TypeScript + Vite
+# Jefferson Onunwa | Frontend Architecture
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+**[Live Production Build: jefferson-no.netlify.app](https://jefferson-no.netlify.app/)**
 
-Currently, two official plugins are available:
+## Engineering Overview
+This repository houses the client-side architecture for my personal engineering portfolio. It is engineered as a high-performance Single Page Application (SPA) to demonstrate scalable frontend infrastructure, strict type-safety, and fluid user interface execution. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Technical Stack
+**Core Architecture:** React, TypeScript, Vite  
+**Styling & Interface:** Tailwind CSS, Framer Motion, Lucide React  
+**Data Integration:** Web3Forms API (Serverless JSON Payload)  
+**Infrastructure:** Netlify (Continuous Deployment)
 
-## React Compiler
+## Local Environment Setup
+To spin up this environment on your local machine, execute the following sequential commands in your terminal:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. Clone the repository to your local machine.
+`git clone https://github.com/Am-Jheffy/Portfolio.git`
 
-## Expanding the Oxlint configuration
+2. Navigate into the project directory.
+`cd Portfolio`
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+3. Install the required dependencies.
+`npm install`
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+4. Initialize the local development server.
+`npm run dev`
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## Proprietary Notice
+The UI architecture, design system, and underlying code structure of this repository belong to Jefferson Onunwa. Unauthorized cloning, redistribution, or repurposing of this design is strictly prohibited.
