@@ -37,9 +37,6 @@ const entryVariant = {
 export function Experience() {
   const trackRef = useRef<HTMLDivElement>(null);
 
-  // Progress of the timeline track through the viewport — drives the glowing
-  // fill line. Starts filling once the track's top reaches the vertical
-  // center of the viewport, finishes as its bottom passes the same point.
   const { scrollYProgress } = useScroll({
     target: trackRef,
     offset: ["start center", "end center"],

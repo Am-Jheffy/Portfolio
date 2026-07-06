@@ -6,8 +6,8 @@ export const SITE = {
   tagline:
     "I craft fast, scalable, and user-friendly web applications using React and TypeScript — combining modern frontend frameworks with strongly-typed, robust architectural solutions.",
   email: "jeffersiconunwa@gmail.com",
-  resumeUrl: "/Jefferson_Onunwa-Frontend_Developer_3yrs.pdf",
-  photo: "/avatar.jpg",
+  resumeUrl: "/Jefferson_Onunwa_Frontend_Engineer.pdf",
+  photo: "/avatar-1-.jpg",
 };
 
 export const ABOUT = {
@@ -107,9 +107,10 @@ export const featuredProjects = [
       "Framer Motion",
       "AI Integration",
     ],
-    liveLink: "#",
+    liveLink: "https://axiomvault.netlify.app/",
     githubLink: "#",
-    imagePath: "/mockups/axiom.png",
+    isPrivateRepo: true,
+    imagePath: "/mockups/axiom-dashboard.png",
   },
   {
     id: "02",
@@ -124,8 +125,8 @@ export const featuredProjects = [
       "State Management",
       "API Integrations",
     ],
-    liveLink: "#",
-    githubLink: "#",
+    liveLink: "https://swiftmeal-frontend-production.up.railway.app/",
+    githubLink: "https://github.com/Swiftmealng/Swiftmealng",
     imagePath: "/mockups/swiftmeal.png",
   },
   {
@@ -142,33 +143,54 @@ export const featuredProjects = [
       "Global State",
       "Component Engineering",
     ],
-    liveLink: "#",
-    githubLink: "#",
+    liveLink: "https://aurence-fashion-empire.vercel.app",
+    githubLink: "https://github.com/Am-Jheffy/aurence-fashion-empire",
     imagePath: "/mockups/ecommerce.png",
   },
 ];
 
 export const projectArchive = [
   {
-    year: "2025",
-    title: "Legal Counsel Platform",
-    category: "Law Firm Architecture",
+    year: "2024",
+    title: "SwitchTech Energy",
+    category: "Infrastructure / Oil & Gas",
     builtWith: ["HTML5", "CSS3", "JavaScript"],
-    link: "#",
-  },
-  {
-    year: "2025",
-    title: "Apex Energy Systems",
-    category: "Corporate Web / Infrastructure",
-    builtWith: ["HTML5", "CSS3", "JavaScript"],
-    link: "#",
+    link: "https://switchtechenergy.com/",
   },
   {
     year: "2024",
-    title: "Academy Portal",
-    category: "Educational Institutional Platform",
+    title: "Gray Mata Solicitors",
+    category: "Law Firm Architecture",
     builtWith: ["HTML5", "CSS3", "JavaScript"],
-    link: "#",
+    link: "https://graymata.com/",
+  },
+  {
+    year: "2023",
+    title: "St. Mary's College Awka",
+    category: "Educational Institutional",
+    builtWith: ["HTML5", "CSS3", "JavaScript"],
+    link: "https://stmaryscollegeawka.com/",
+  },
+  {
+    year: "2023",
+    title: "Arch Angel Gabriel S. S. ",
+    category: "Educational Institutional",
+    builtWith: ["HTML5", "CSS3", "JavaScript"],
+    link: "https://aagssi.com/",
+  },
+  {
+    year: "2023",
+    title: "R. F. A. E. M. Secondary School",
+    category: "Educational Institutional",
+    builtWith: ["HTML5", "CSS3", "JavaScript"],
+    link: "https://rfaemss.com/",
+  },
+  {
+    year: "2023",
+    title: "Decimal Group of Schools",
+    category: "Educational Institutional",
+    builtWith: ["HTML5", "CSS3", "JavaScript"],
+    link: "https://decimalgroupofschools.com/",
   },
 ];
 
@@ -255,7 +277,8 @@ export const CONTACT_META = {
 export const CONTACT_CHANNELS = {
   availability: "Available for new opportunities",
   locationLabel: "Port Harcourt, Nigeria (WAT)",
-  whatsapp:  "https://wa.me/2348124652951?text=Hi%20Jefferson%2C%20I%20just%20reviewed%20your%20portfolio.%20I%27d%20love%20to%20connect%20regarding%20a%20potential%20opportunity.",
+  whatsapp:
+    "https://wa.me/2348124652951?text=Hi%20Jefferson%2C%20I%20just%20reviewed%20your%20portfolio.%20I%27d%20love%20to%20connect%20regarding%20a%20potential%20opportunity.",
   calendly: "https://calendly.com/jeffersiconunwa/30min",
   directEmail: "jeffersiconunwa@gmail.com",
 };

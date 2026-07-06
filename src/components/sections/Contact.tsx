@@ -28,7 +28,6 @@ const item = {
 };
 
 // react-icons stands in for the brand marks here — lucide-react dropped
-// Github/Linkedin/X in v1, same substitution used in the About section.
 const SOCIAL_ICONS = {
   github: FaGithub,
   linkedin: FaLinkedin,
@@ -74,14 +73,8 @@ export function Contact() {
       if (result.success) {
         setStatus("success");
         setForm(emptyForm);
-        // Revert the button back to normal after the confirmation has had
-        // a moment to register, so it doesn't say "Message Sent!" forever.
         setTimeout(() => setStatus("idle"), 4000);
       } else {
-        // Web3Forms still returns a real JSON body on 400 — surface the
-        // actual reason (e.g. "Please verify your email") instead of just
-        // "something went wrong", since that's what actually tells you
-        // what to fix.
         setStatus("error");
         setErrorMessage(result.message || "Submission was rejected.");
         console.error("Web3Forms rejected the submission:", result);
