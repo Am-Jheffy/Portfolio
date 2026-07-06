@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import { ArrowRight, ArrowUpRight } from "lucide-react";
+import { ArrowRight, ArrowUpRight, Lock } from "lucide-react";
 import { FaGithub } from "react-icons/fa6";
 import {
   PROJECTS_META,
@@ -105,7 +105,7 @@ export function Projects() {
                 variants={project}
                 className={cn(
                   "flex flex-col gap-8 md:items-center md:gap-12",
-                  reversed ? "md:flex-row-reverse" : "md:flex-row"
+                  reversed ? "md:flex-row-reverse" : "md:flex-row",
                 )}
               >
                 <div className="md:w-1/2">
@@ -159,16 +159,27 @@ export function Projects() {
                   <div className="mt-7 flex items-center gap-5">
                     <a
                       href={p.liveLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="inline-flex items-center gap-1.5 font-mono text-xs text-heading transition-colors hover:text-accent"
                     >
                       Live <ArrowUpRight size={14} />
                     </a>
-                    <a
-                      href={p.githubLink}
-                      className="inline-flex items-center gap-1.5 font-mono text-xs text-body transition-colors hover:text-accent"
-                    >
-                      <FaGithub size={14} /> Source
-                    </a>
+
+                    {p.isPrivateRepo ? (
+                      <span className="inline-flex cursor-not-allowed items-center gap-1.5 font-mono text-xs text-body/40">
+                        <Lock size={14} /> Private Repo
+                      </span>
+                    ) : (
+                      <a
+                        href={p.githubLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-1.5 font-mono text-xs text-body transition-colors hover:text-accent"
+                      >
+                        <FaGithub size={14} /> Source
+                      </a>
+                    )}
                   </div>
                 </div>
               </motion.article>
@@ -188,7 +199,7 @@ export function Projects() {
               size={16}
               className={cn(
                 "transition-transform duration-300",
-                archiveOpen ? "rotate-90" : "group-hover:translate-x-1"
+                archiveOpen ? "rotate-90" : "group-hover:translate-x-1",
               )}
             />
           </button>
